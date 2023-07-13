@@ -1,6 +1,4 @@
-import * as PIXI from 'pixi.js'
+import { Game } from './game'
 
-const app = new PIXI.Application({ 
-  background: '#1099bb',
-  view: document.getElementById('game-canvas') as HTMLCanvasElement,
-});
+const game = new Game();
+game.init();

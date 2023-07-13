@@ -12,6 +12,7 @@
     "watch": "esbuild --bundle src/index.ts --outfile=dist/index.js --target=es2016 --watch"
   },
   "dependencies": {
+    "gsap": "^3.12.2",
     "pixi.js": "^7.2.4"
   }
 }
